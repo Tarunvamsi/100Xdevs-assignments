@@ -10,5 +10,4 @@ function isPalindrome(str) {
   }
   return false;
 }
-
 module.exports = isPalindrome;
