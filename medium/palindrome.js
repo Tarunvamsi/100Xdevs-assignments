@@ -4,7 +4,11 @@
 */
 
 function isPalindrome(str) {
-  return true;
+  const sortedstr = str.split('').sort().join('');
+  if(str===sortedstr){
+    return true;
+  }
+  return false;
 }
 
 module.exports = isPalindrome;
